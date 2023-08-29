@@ -21,7 +21,7 @@ const WhatWeOffer = () => {
       <Grid
         item
         xs={4}
-        className="md:grid md:grid-cols-3 md:gap-10 mt-10 lg:pb-12 text-[#868e96] flex flex-col"
+        className="md:grid md:grid-cols-3 gap-10 mt-10 lg:pb-12 text-[#868e96] flex flex-col"
       >
         <Box className=" cursor-pointer group mb-10">
           <Group

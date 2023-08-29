@@ -72,16 +72,16 @@ const QuickLinks = () => {
           <Text weight={700}>Services</Text>
           <List className="text-white text-sm">
             <List.Item>
-              <Link href={'/eServices'}>⟶ eServices</Link>
+              <Link href={'/servicess/eServices'}>⟶ eServices</Link>
             </List.Item>
             <List.Item>
-              <Link href={'/eProcure'}>⟶ eProcure</Link>
+              <Link href={'/servicess/eProcure'}>⟶ eProcure</Link>
             </List.Item>
             <List.Item>
-              <Link href={'/engage'}>⟶ Engage</Link>
+              <Link href={'/servicess/engage'}>⟶ Engage</Link>
             </List.Item>
             <List.Item>
-              <Link href={'/measure'}>⟶ Measure</Link>
+              <Link href={'/servicess/measure'}>⟶ Measure</Link>
             </List.Item>
             <List.Item>
               <Link href={'/'}>⟶ ePay</Link>
