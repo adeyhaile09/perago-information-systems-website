@@ -18,13 +18,13 @@ const MobileHeader: React.FC = () => {
         top: 0,
         left: 0,
         width: '100%',
-        height: '15%',
+        height: '10%',
         zIndex: 100,
         backgroundColor: '#fff',
       }}
     >
       <nav>
-        <div className="container mx-auto flex items-center justify-between">
+        <div className="shadow-2xl flex items-center justify-between">
           <div>
             <Image
               src="/images/perago2.png"
