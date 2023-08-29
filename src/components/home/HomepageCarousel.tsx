@@ -8,7 +8,7 @@ const HomepageCarousel = () => {
         src={'./images/WebHerosFlat_0004_eservice2.jpg'}
         width={'100%'}
         alt=""
-        style={{ marginTop: '70px' }}
+        style={{ marginTop: '49px' }}
       />
       <Box className="bg-[#00000082] top-0 right-0 left-0 lg:bottom-16 bottom-16 absolute">
         <Text
