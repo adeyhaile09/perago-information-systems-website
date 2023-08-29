@@ -18,7 +18,7 @@ const WhatWeOffer = () => {
         possible solution to the problem on hand.
       </Text>
 
-      {/* <Grid
+      <Grid
         item
         xs={4}
         className="md:grid md:grid-cols-3 gap-10 mt-10 pb-12 text-[#868e96] "
@@ -199,8 +199,8 @@ const WhatWeOffer = () => {
             </Text>
           </Group>
         </Box>
-      </Grid> */}
-      <Grid
+      </Grid>
+      {/* <Grid
         item
         xs={4}
         className="md:grid md:grid-cols-3 gap-10 mt-10 pb-28 text-[#868e96]  "
@@ -291,7 +291,7 @@ const WhatWeOffer = () => {
             </Text>
           </Group>
         </Box>
-      </Grid>
+      </Grid> */}
     </Card>
   );
 };
