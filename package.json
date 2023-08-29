@@ -19,7 +19,6 @@
     "@mantine/form": "^6.0.19",
     "@mantine/hooks": "^6.0.17",
     "@mantine/next": "^6.0.17",
-    "@material-ui/icons": "^4.11.3",
     "@mui/icons-material": "^5.14.1",
     "@mui/material": "^5.14.2",
     "@react-google-maps/api": "^2.19.2",
