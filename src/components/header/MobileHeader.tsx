@@ -18,7 +18,7 @@ const MobileHeader: React.FC = () => {
         top: 0,
         left: 0,
         width: '100%',
-        height: '7%',
+        height: '48px',
         zIndex: 100,
         backgroundColor: '#fff',
       }}
