@@ -50,8 +50,8 @@ const WhatWeOffer = () => {
             <Text className="font-bold">E-Services Platform</Text>
           </Group>
           <Text size="xs" className="text-center pl-5 pr-5">
-            A business process management solution enabling client's to achieve
-            paperless business transformation.
+            A business process management solution enabling client&apos;s to
+            achieve paperless business transformation.
           </Text>
         </Box>
         <Box className="cursor-pointer group mb-10">

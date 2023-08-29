@@ -27,8 +27,8 @@ const Engage = () => {
               it is a communication platform between customers and a service
               provider through various electronic channels of correspondence to
               enhance overall customer experiences and delight. The system
-              encourages customers' engagement in controlling the quality of
-              services and instills accountability in the workplace.
+              encourages customer&apos;s engagement in controlling the quality
+              of services and instills accountability in the workplace.
             </Text>
             <Text size="sm" color="dimmed" className="mb-5 text-justify">
               Currently, sponsored by the Ministry of Communication and

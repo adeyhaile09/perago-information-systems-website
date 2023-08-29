@@ -23,11 +23,12 @@ const Career = () => {
       <Text className="text-sm mt-5 mb-8 text-justify leading-6">
         At Perago Information Systems, we pride ourselves on our team feeling.
         We believe that by working together, we can achieve more than we ever
-        could alone. That's why we offer competitive salaries. But it's not just
-        about the money. We also have a flat organization, which means that
-        everyone has a voice and an equal say in decision-making. This helps to
-        create a more collaborative environment where everyone can contribute
-        their best ideas. We'll be happy to welcome you to our team
+        could alone. That &apos;s why we offer competitive salaries. But
+        it&apos;s not just about the money. We also have a flat organization,
+        which means that everyone has a voice and an equal say in
+        decision-making. This helps to create a more collaborative environment
+        where everyone can contribute their best ideas. We&apos;ll be happy to
+        welcome you to our team
       </Text>
       <Card radius="sm" withBorder className="shadow ">
         <div className="w-2 h-2 bg-[#55ba4a] rounded-full mr-5 mt-5 mb-[-50px]"></div>
@@ -103,13 +104,6 @@ const Career = () => {
           </Link>
         </Group>
       </Card>
-      {/* <Group position="right">
-        <Link href={'/contact-us'} className={` hover:text-[#55ba4a]`}>
-          <Button className="hover:bg-[#55ba4a] hover:text-[#fff] rounded-2xl border-[#55ba4a] text-[#575a5c] mt-12">
-            Contact Us
-          </Button>
-        </Link>
-      </Group> */}
     </Box>
   );
 };
