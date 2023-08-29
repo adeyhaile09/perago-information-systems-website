@@ -18,20 +18,19 @@ const WhatWeOffer = () => {
         possible solution to the problem on hand.
       </Text>
 
-      <Grid
+      {/* <Grid
         item
         xs={4}
-        className="md:grid md:grid-cols-3 gap-10 mt-10 lg:pb-12 text-[#868e96] "
+        className="md:grid md:grid-cols-3 gap-10 mt-10 pb-12 text-[#868e96] "
       >
         <Box className=" cursor-pointer group mb-10">
           <Group
             position="center"
             className="transition duration-700  ease-in-out transform group-hover:scale-105  "
           >
-            <Link href={'./eSERVICES'}>
+            <Link href={'./servicess/eServices'}>
               <Card
                 shadow="md"
-                padding="lg"
                 withBorder
                 className="rounded-full h-48 w-48  group-hover:shadow-lg"
               >
@@ -59,10 +58,9 @@ const WhatWeOffer = () => {
             position="center"
             className="transition duration-700  ease-in-out transform group-hover:scale-105 "
           >
-            <Link href={'./ePROCURE'}>
+            <Link href={'./servicess/eProcure'}>
               <Card
                 shadow="md"
-                padding="lg"
                 withBorder
                 className="rounded-full h-48 w-48  group-hover:shadow-lg"
               >
@@ -90,10 +88,9 @@ const WhatWeOffer = () => {
             position="center"
             className="transition duration-700  ease-in-out transform group-hover:scale-105 "
           >
-            <Link href={'./engage'}>
+            <Link href={'./servicess/engage'}>
               <Card
                 shadow="md"
-                padding="lg"
                 withBorder
                 className="rounded-full h-48 w-48  group-hover:shadow-lg"
               >
@@ -122,10 +119,9 @@ const WhatWeOffer = () => {
             position="center"
             className="transition duration-700  ease-in-out transform group-hover:scale-105 "
           >
-            <Link href={'./measure'}>
+            <Link href={'./servicess/measure'}>
               <Card
                 shadow="md"
-                padding="lg"
                 withBorder
                 className="rounded-full h-48 w-48  group-hover:shadow-lg"
               >
@@ -155,7 +151,6 @@ const WhatWeOffer = () => {
           >
             <Card
               shadow="md"
-              padding="lg"
               withBorder
               className="rounded-full h-48 w-48  group-hover:shadow-lg"
             >
@@ -183,7 +178,6 @@ const WhatWeOffer = () => {
           >
             <Card
               shadow="md"
-              padding="lg"
               withBorder
               className="rounded-full h-48 w-48  group-hover:shadow-lg"
             >
@@ -202,6 +196,98 @@ const WhatWeOffer = () => {
             <Text size="xs" className="text-center  pl-5 pr-5">
               It helps customers pay for government service fees, utilities, and
               retail purchases seamlessly.
+            </Text>
+          </Group>
+        </Box>
+      </Grid> */}
+      <Grid
+        item
+        xs={4}
+        className="md:grid md:grid-cols-3 gap-10 mt-10 pb-28 text-[#868e96]  "
+      >
+        <Box className="cursor-pointer group mb-10">
+          <Group
+            position="center"
+            className="transition duration-700  ease-in-out transform group-hover:scale-105 "
+          >
+            <Card
+              shadow="md"
+              withBorder
+              className="rounded-full h-48 w-48  group-hover:shadow-lg"
+            >
+              <Image
+                src="/images/integrity1.png"
+                height={100}
+                width={100}
+                alt=""
+                className="mt-8 ml-8 "
+              />
+            </Card>
+          </Group>
+
+          <Group position="center" mt="xl" mb="xs" className="text-center">
+            <Text className="font-bold">Integrity</Text>
+          </Group>
+          <Text size="xs" className="text-center  pl-5 pr-5">
+            We are consistent, honest, and fair and always try to do what is
+            right.
+          </Text>
+        </Box>
+        <Box className="cursor-pointer group mb-10">
+          <Group
+            position="center"
+            className="transition duration-700  ease-in-out transform group-hover:scale-105 "
+          >
+            <Card
+              shadow="md"
+              padding="lg"
+              withBorder
+              className="rounded-full h-48 w-48  group-hover:shadow-lg"
+            >
+              <Image
+                src="/images/quality2.jpg"
+                height={100}
+                width={100}
+                alt=""
+                className="mt-7 ml-7 "
+              />
+            </Card>
+          </Group>
+
+          <Group position="center" mt="md" mb="xs" className=" text-center">
+            <Text className="font-bold">Quality</Text>
+            <Text size="xs" className="text-center  pl-5 pr-5">
+              We deliver high-quality software that meets or exceeds customer
+              expectations and industry standards.
+            </Text>
+          </Group>
+        </Box>
+        <Box className="cursor-pointer group">
+          <Group
+            position="center"
+            className="transition duration-700  ease-in-out transform group-hover:scale-105 "
+          >
+            <Card
+              shadow="md"
+              padding="lg"
+              withBorder
+              className="rounded-full h-48 w-48  group-hover:shadow-lg"
+            >
+              <Image
+                src="/images/inovation.jpg"
+                height={80}
+                width={80}
+                alt=""
+                className="mt-8 ml-9 "
+              />
+            </Card>
+          </Group>
+
+          <Group position="center" mt="md" mb="xs" className=" text-center">
+            <Text className="font-bold">Innovation</Text>
+            <Text size="xs" className=" text-center  pl-5 pr-5">
+              We commit to seeking new solutions, and continuously improving
+              products and services.
             </Text>
           </Group>
         </Box>
