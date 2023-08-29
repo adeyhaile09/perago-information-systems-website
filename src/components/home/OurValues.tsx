@@ -7,9 +7,7 @@ const OurValues = () => {
   return (
     <>
       <Box className="bg-[#F5F5F5] pt-20   lg:pl-40 lg:pr-40 pl-10 pr-10 mt-20">
-        <Text className=" text-5xl text-[#55ba4a] mb-5 text-center">
-          OUR VALUES
-        </Text>
+        <Text className=" text-5xl text-[#55ba4a] mb-5 text-center">OUR</Text>
         <Text color="dimmed" className="text-sm  text-justify">
           At Perago Information Systems, our workflow inhibits transparency in
           its core. We deeply value the relation we form with our clients and
